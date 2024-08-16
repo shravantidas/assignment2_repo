@@ -16,6 +16,11 @@ body{
 .light-gray{
     color: rgba(255, 255, 255, 0.5);
 }
+.heading4{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: white;
+}
 body{
     background: rgb(0, 0, 0);
 }
@@ -223,16 +228,93 @@ margin-bottom: 1rem;
     margin-bottom: 2rem;
 }
 .extra-mile-image img{
-    /* display: block;
-  margin-left: 55%;
-  width: 40%;
-  height: 95%; 
-  padding-top: 2rem;
-  border-radius: 5%; */
 margin-top: 2rem;
 width: 210px;
 height: 230px;
 margin-right: 20px;
 border-radius: 10px;
 object-fit: cover;
+}
+.BMI-calculator{
+    margin-top: 4rem;
+}
+.BMI-content{
+    width: 50%;
+    margin: 0 auto;
+}
+.BMI-content h2{
+    font-size: 2rem;
+font-weight: 900;
+color: white;
+margin-bottom: 1rem;
+}
+.BMI-content p{
+font-weight: 400;
+margin-bottom: 5rem;
+font-size: 14px;
+}
+.BMI-container{
+    width: 100%;
+    background-color:#222222;
+    height: 350px;
+}
+.BMI{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.BMI-calculate p{
+    font-size: 14px;
+font-weight: 400;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.BMI-chart{
+    width: 50%;
+    margin-left: 1rem;
+}
+.BMI-chart table{
+    margin-top: 2rem;
+}
+.BMI-chart table,th,td{
+    border: 1px solid #919191;
+    border-collapse: collapse;
+}
+.BMI-chart th{
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 10px;
+}
+.BMI-chart td{
+    color: #919191;
+    font-size: 14px;
+    padding: 10px;
+}
+.BMI-calculate form input{
+    background-color:rgba(255, 255, 255, 0.1);
+    color: #919191;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 8px;
+    width:250px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.BMI-calculate form .select{
+    background-color:rgba(255, 255, 255, 0.1);
+    color: #919191;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 8px;
+    width:250px;
+    margin-bottom: 5px;
+}
+.BMI-calculate form .factor{
+    width:510px;
+    margin-bottom: 1rem;
 }
