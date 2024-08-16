@@ -237,6 +237,7 @@ object-fit: cover;
 }
 .BMI-calculator{
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .BMI-content{
     width: 50%;
@@ -257,6 +258,7 @@ font-size: 14px;
     width: 100%;
     background-color:#222222;
     height: 350px;
+ 
 }
 .BMI{
     width: 80%;
@@ -317,4 +319,63 @@ margin-bottom: 1rem;
 .BMI-calculate form .factor{
     width:510px;
     margin-bottom: 1rem;
+}
+.meet-team-members{
+    padding-top: 4rem;
+    width: 65%;
+    margin: 0 auto;
+}
+.meet-team-members .team-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.meet-team-members .team-content h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.meet-team-members .team-content p{
+    font-size: 14px;
+font-weight: 400;
+margin-bottom: 4rem;
+}
+
+.meet-team-members .teammember-images{
+padding: 1rem;
+border-radius: 10px;
+width: 680px;
+height: 420px;
+margin: 0 auto;
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.teammember-images img{
+    width: 95%;
+    height: 85%;
+    border-radius: 10px;
+}
+.image1 h5,.image2 h5,.image3 h5,.image4 h5,.image5 h5,.image6 h5{
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -70px;
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+    position: relative;
+}
+.image1-content,.image2-content,.image3-content,.image4-content,.image5-content,.image6-content{
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    margin-left: 1rem;
+}
+.image1-content p,.image2-content p,.image3-content p,.image4-content p,.image5-content p,.image6-content p{
+    position: absolute;
+    top: -50px;
+    font-size: 14px;
 }
