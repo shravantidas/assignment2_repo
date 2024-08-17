@@ -597,8 +597,10 @@ footer .container{
 
     .BMI-container{
         height: 670px;
-        width: 430px;
+        width: 500px;
         margin: 0 auto;
+        padding-left: 10px;
+        background-color:#222222;
     }
     .BMI-chart{
         width: 80%;
@@ -617,26 +619,31 @@ footer .container{
     }
 .BMI-calculate form{
     width: 400px;
-    
+}
+.BMI-calculate p{
+    width: 300px;
 }
     .BMI-calculate form input{
-        width:180px;
+        width:140px;
         margin-bottom: 10px;
         margin-right: 10px;
     }
     .BMI-calculate form .select{
    
-        width:180px;
+        width:140px;
         margin-bottom: 5px;
     }
     .BMI-calculate form .factor{
-        width:375px;
+        width:295px;
         margin-bottom: 1.5rem;
     }
 
     .meet-team-members{
+        width: 400px;
+        margin: 0 auto;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        margin-left: 13px;
     }
     .meet-team-members .team-content h2{
         font-size: 1.5rem;
@@ -675,7 +682,7 @@ footer .container{
       }
       footer .container{
         height: 600px;
-        width: 500px;
+        width: 510px;
     }
     .foot-content{
        flex-direction: column;
@@ -704,5 +711,6 @@ footer .container{
     .foot h6{
         font-size: 14px;
         font-weight: 400;
+        margin-right: 100px;
     }
 }
