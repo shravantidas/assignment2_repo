@@ -417,7 +417,7 @@ margin: 0 auto;
 footer .container{
     width: 100%;
     background-color:#222222;
-    height: 300px;
+    height: 320px;
 }
 .foot-content{
     width: 80%;
@@ -453,8 +453,9 @@ footer .container{
     margin-bottom: 13px;
 }
 .foot{
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: center;
+  padding-bottom: 20px;
 }
 .foot h6{
     font-size: 1rem;
