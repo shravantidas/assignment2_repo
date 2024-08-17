@@ -199,6 +199,40 @@ border-radius: 100%;
     margin-right: 4.5rem;
     margin-bottom: 7rem;
 }
+.Gym-instruments{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+.Gym-content{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.Gym-content h2{
+    color: white;
+    margin-bottom: 0.9rem;
+    font-size: 2rem;
+font-weight: 900;
+}
+
+.Gym-content p{
+font-size: 14px;
+margin-bottom: 4rem;
+}
+.gym-card{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 100px;
+}
+.gym-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
 .extra-mile{
     width: 65%;
     height: 280px;
@@ -488,21 +522,23 @@ footer .container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .change-habit-card img{
-        margin-left: 30px;
-    }
     .change-habit-card h5{
         font-size: 1rem;
         font-weight: 500;
         margin-top: 1rem;
-        text-align: center;
-        margin-bottom: 1rem;
-        margin-right:130px;
+       margin-bottom: 1rem;
+       align-items: center;
+       justify-content: center;
+       width: 150px;
+       
     }
     .change-habit-card p{
-       width: 200px;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
        text-align: center;
         margin-bottom: 2rem;
+    
     }
     .extra-mile-container .extra-mile-content {
         padding-top: 1rem;
@@ -532,6 +568,12 @@ footer .container{
     margin: 0 auto;
     margin-left: 25px;
 }
+.gym-card img{
+    margin-bottom: 30px;
+}
+.BMI-calculator{
+    margin-top: 2rem;
+}
 .BMI-content p{
     margin-bottom: 2rem;
     width: 300px;
@@ -541,7 +583,7 @@ footer .container{
     }
     .BMI-container{
         height: 630px;
-     
+        width: 500px;
     }
     .BMI-chart{
         width: 80%;
@@ -626,6 +668,7 @@ footer .container{
       }
       footer .container{
         height: 600px;
+        width: 500px;
     }
     .foot-content{
        flex-direction: column;
