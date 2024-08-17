@@ -499,10 +499,11 @@ footer .container{
         margin-bottom: 2rem;
     }
     .banner-content button{
-        width: 140px;
-        height: 49px;
+        width: 120px;
+        font-size: 9px;
+        height: 35px;
         border-radius: 28px;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-bottom: 1rem;
     }
     .banner-image img{
@@ -541,35 +542,49 @@ footer .container{
         margin-bottom: 2rem;
     
     }
+    
     .extra-mile-container .extra-mile-content {
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
     .extra-mile-content h2{
         font-size: 1.5rem;
-    width: 200px;
+    width: 250px;
     margin-bottom: 1rem;
     
     }
     .extra-mile-content p{
         font-size: 14px;
-        width: 220px;
+        width: 250px;
         margin-bottom: 2rem;
 }
 .extra-mile-content button{
-    width: 200px;
+    width: 250px;
     margin-bottom: 28px;
 }
 .extra-mile{
     margin-top: 1rem;
-    height: 450px;
+    height: 460px;
+    width: 350px;
+    padding-left: 20px;
+    margin-left: 50px;
 }
 .extra-mile-image img{
-    width: 220px;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
     height: 150px;
     margin: 0 auto;
     margin-left: 25px;
 }
+.gym-card {
+   grid-template-columns: repeat(1,1fr);
+   width: 180px;
+   margin: 0 auto;
+}
 .gym-card img{
+    width: 180px;
+    height: 160px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 .BMI-calculator{
@@ -579,12 +594,11 @@ footer .container{
     margin-bottom: 2rem;
     width: 300px;
     }
-    .BMI-content{
-        margin-left:5rem ;
-    }
+
     .BMI-container{
-        height: 630px;
-        width: 500px;
+        height: 670px;
+        width: 430px;
+        margin: 0 auto;
     }
     .BMI-chart{
         width: 80%;
@@ -603,7 +617,7 @@ footer .container{
     }
 .BMI-calculate form{
     width: 400px;
-    margin-left: 20px;
+    
 }
     .BMI-calculate form input{
         width:180px;
@@ -619,15 +633,7 @@ footer .container{
         width:375px;
         margin-bottom: 1.5rem;
     }
-    .BMI-calculate button{
-        margin-left: 1rem;
-    }
-    .BMI-calculate h4{
-        margin-left: 1rem;
-    }
-    .BMI-calculate p{
-     margin-left: 1rem;
-    }
+
     .meet-team-members{
         padding-top: 1rem;
         padding-bottom: 1rem;
