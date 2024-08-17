@@ -488,17 +488,20 @@ footer .container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .change-habit-card img{
+        margin-left: 30px;
+    }
     .change-habit-card h5{
         font-size: 1rem;
         font-weight: 500;
-        color: white;
         margin-top: 1rem;
         text-align: center;
-        margin-right: 10rem;
         margin-bottom: 1rem;
+        margin-right:130px;
     }
     .change-habit-card p{
-     margin-right: 150px;
+       width: 200px;
+       text-align: center;
         margin-bottom: 2rem;
     }
     .extra-mile-container .extra-mile-content {
@@ -548,9 +551,7 @@ footer .container{
         margin-top: 1.3rem;
     }
     .BMI{
-        width: 100%;
         padding-top: 2rem;
-        position: static;
     }
     .BMI-chart td{
         color: #919191;
@@ -586,6 +587,7 @@ footer .container{
     }
     .meet-team-members{
         padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .meet-team-members .team-content h2{
         font-size: 1.5rem;
@@ -597,17 +599,60 @@ footer .container{
     .meet-team-members .teammember-images{
         border-radius: 10px;
         width: 200px;
-        height: 900px;
+        height: 1000px;
         padding-left: 15px;
             display: grid;
             grid-template-columns: repeat(1,1fr);
         }
         .teammember-images img{
             width: 100%;
-            height: 75%;
+            height: 100%;
         }
-      
+        .image1,.image2,.image3,.image4,.image5,.image6{
+           margin-bottom: 1rem;
+        }
+        .image1 h5,.image2 h5,.image3 h5,.image4 h5,.image5 h5,.image6 h5{
+           
+            font-size: 13px;
+            font-weight: 900;
+            top: -40px;
+        }
+        .image1-content p,.image2-content p,.image3-content p,.image4-content p,.image5-content p,.image6-content p{
+            top: -21px;
+            font-size: 12px;
+        }
       footer{
         margin-top: 50px;
       }
+      footer .container{
+        height: 600px;
+    }
+    .foot-content{
+       flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);;
+    }
+    .foot-content .col-1 h2{
+        font-size: 3rem;
+    }
+    .foot-content .col-1 P{
+        font-size: 12px;
+        margin-top: 1.2rem;
+        width: 250px;
+        margin-bottom: 2rem;
+    }
+    .foot-content h5{
+        width: 300px;
+    }
+    .foot-content li{
+        width: 300px;
+        font-size: 14px;
+        margin-bottom: 11px;
+    }
+
+    .foot h6{
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
